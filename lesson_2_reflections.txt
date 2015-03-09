@@ -18,3 +18,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 When I whant to make some experiment, like adding an feature that I don't know if it's going to work. 
 Or keep a version of code that I know it's working as expected. And so on.
+
+How do the diagrams help you visualize the branch structure?
+
+With diagrams I can easily visualy where branches are located in history and navigate through them so I can merge them.
