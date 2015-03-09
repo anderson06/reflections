@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+This command tells git to create a repository from the actual directory, so it creates a hidden directory to keep metadata.
+
+Remember:
+
+One commit per logical change.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is where git keeps info about the files I want to go in the next commit. With it I can better organize my commits, so instead of put all new/edited files in one commit, I can split them into many commits organized by logical changes to the project itself.
