@@ -9,3 +9,7 @@ One commit per logical change.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is where git keeps info about the files I want to go in the next commit. With it I can better organize my commits, so instead of put all new/edited files in one commit, I can split them into many commits organized by logical changes to the project itself.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Even if I have edited many files at once and these editions are no related logically, I am able to organize my commits with the help of staging area. I can add to the staging area only those files envolved in a logical change and then commit these changes with a descritive message, and then do the same with the other changes.
