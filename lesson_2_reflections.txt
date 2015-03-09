@@ -13,3 +13,8 @@ Staging area is where git keeps info about the files I want to go in the next co
 How can you use the staging area to make sure you have one commit per logical change?
 
 Even if I have edited many files at once and these editions are no related logically, I am able to organize my commits with the help of staging area. I can add to the staging area only those files envolved in a logical change and then commit these changes with a descritive message, and then do the same with the other changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I whant to make some experiment, like adding an feature that I don't know if it's going to work. 
+Or keep a version of code that I know it's working as expected. And so on.
