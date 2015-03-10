@@ -1,46 +1,66 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-This command tells git to create a repository from the actual directory, so it creates a hidden directory to keep metadata.
+	This command tells git to create a repository from the actual directory, so 
+	it creates a hidden directory to keep metadata.
 
+--------------------------------------------------------------------------------
 
+Remember: One commit per logical change.
 
-Remember:
+--------------------------------------------------------------------------------
 
-One commit per logical change.
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
 
+	Staging area is where git keeps info about the files I want to go in the 
+	next commit. With it I can better organize my commits, so instead of put all
+	new/edited files in one commit, I can split them into many commits organized 
+	by logical changes to the project itself.
 
+--------------------------------------------------------------------------------
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How can you use the staging area to make sure you have one commit per 
+logical change?
 
-Staging area is where git keeps info about the files I want to go in the next commit. With it I can better organize my commits, so instead of put all new/edited files in one commit, I can split them into many commits organized by logical changes to the project itself.
+	Even if I have edited many files at once and these editions are not 
+	logically related, I am able to organize my commits with the help of 
+	staging area. I am able to add to the staging area only those files involved 
+	in a logical change and then commit these changes with a descriptive 
+	message, and then do the same with the other changes.
 
+--------------------------------------------------------------------------------
 
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
 
-How can you use the staging area to make sure you have one commit per logical change?
+	A good situation is when I want to make some experiment, like adding an 
+	feature that I don't know if it's going to work. 
+	Or keep a version of code that I know if it is working as expected.
 
-Even if I have edited many files at once and these editions are no related logically, I am able to organize my commits with the help of staging area. I can add to the staging area only those files envolved in a logical change and then commit these changes with a descritive message, and then do the same with the other changes.
-
-
-
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
-When I whant to make some experiment, like adding an feature that I don't know if it's going to work. 
-Or keep a version of code that I know it's working as expected. And so on.
-
-
+--------------------------------------------------------------------------------
 
 How do the diagrams help you visualize the branch structure?
 
-With diagrams I can easily visualy where branches are located in history and navigate through them so I can merge them.
+	With diagrams I can easily visually where branches are located in history 
+	and navigate through them.
 
+--------------------------------------------------------------------------------
 
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When we merge branches together, all commits are merged in one branch and 
+	this branch has now the state of both branches. 
+	It's represented that way in the diagram so we can clearly see how and where
+	branches are divided, the commits in each branch, and the point where 
+	branches are merged.
 
-When we merge branches together, all commits are merged in one branch and the branch we merged into has now the state of both branches. It's represented the way in the diagram so we can clearly see the branches divided, each with its own commits, and then, in some point, they are merged, ending with all its commits in the same branch.
+--------------------------------------------------------------------------------
 
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
 
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-When there simple aditions and removals from a file and git automaticaly does everything it has to, it's wonderful! But there are some complecated changes that if git tryed to merge by its own it could make many mistakes, in this cases it's preferable to merge files manually.
+	When there are simple additions and removals from a file and git 
+	automatically does everything it has to, it's wonderful! But there are some 
+	complicated changes that if git tried to merge by its own it could make 
+	many mistakes, in this cases it's preferable to merge files manually.

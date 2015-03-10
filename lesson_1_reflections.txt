@@ -1,55 +1,50 @@
-Erro na adaptação de infográgico. Tomar cuidado.
-
-Lista de coisas que eu deveria saber:
-
-Design patterns (GOF 24 patterns)
-Design principles (SOLID, DRY, SRP, DIP)
-Methods of working (Agile, Scrum, Kanban, Waterfall)
-Disciplines (TDD, BDD, OOP, CI, Pair Programming)
-Artifacts (UML, sequence diagrams, flow charts, decision tables)
-
-git mantem a integridade através de hashes
-quase todas a operações são locais, por isso é rápido
-git salva snapshots da versão atual e não apenas as alterações, como outros cvs
-git possui três estado, comitado, modificado e encenado
-
-doskey subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
-
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    It helps focus on parts of the file that were changed
+    It helps to focus on parts of the file that were changed
+
+--------------------------------------------------------------------------------   
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    This way I can check the evolution of file and check when a bug was introduced
-    to my code and it affected it.
+    This way I can check the evolution of any file and check when a bug was 
+    introduced to my code and it affected it.
+
+--------------------------------------------------------------------------------  
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    By manually chosing when to commit changes I can organize commits in logical ways.
-    By logical changes, bug fixes, feature incrementations, etc.
+    By manually choosing when to commit changes I can organize commits in 
+    logical ways. By logical changes, bug fixes, feature implementations, etc.
+
+--------------------------------------------------------------------------------
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    This way we can package the all software in different versions.
+    This way we can package the software in different versions.
+
+--------------------------------------------------------------------------------
 
 How can you use the commands git log and git diff to view the history of files?
 
-    I can use git log to check a list of commits with its id, date and message.
-    I can also use the id info with git diff to compare two commits and check
-    the diferences betwen them.
+    I can use git log to check a list of commits with their id, date and 
+    message. I can also use the id info with git diff to compare two commits 
+    and check the differences between them.
+
+--------------------------------------------------------------------------------
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    I can use git to navigate betwen commits and compare files. This way I can
+    I can use git to navigate between commits and compare files. This way I can
     track down when a bug was inserted and more easily destroy it with a laser.
+
+--------------------------------------------------------------------------------
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I want to try git in my other projects.
+    I'll use git in all my projects.
