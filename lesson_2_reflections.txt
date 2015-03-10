@@ -22,3 +22,7 @@ Or keep a version of code that I know it's working as expected. And so on.
 How do the diagrams help you visualize the branch structure?
 
 With diagrams I can easily visualy where branches are located in history and navigate through them so I can merge them.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge branches together, all commits are merged in one branch and the branch we merged into has now the state of both branches. It's represented the way in the diagram so we can clearly see the branches divided, each with its own commits, and then, in some point, they are merged, ending with all its commits in the same branch.
