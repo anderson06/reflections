@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I want to use a remote repo when working on a tema where developers work on the same code base.
+A remote repo is also useful for working in the same project in different machines.
