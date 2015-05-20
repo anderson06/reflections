@@ -3,7 +3,6 @@ When would you want to use a remote repository rather than keeping all your work
 I want to use a remote repo when working on a tema where developers work on the same code base.
 A remote repo is also useful for working in the same project in different machines.
 
-
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 This is the best way to avoid dealing with conflicts at random times.
@@ -15,3 +14,7 @@ affecting the actual code.
 We use clone to copy a repo to our working directory so we can edit code me our own commits.
 Clone copies from a remote repo to your environment and does not keep a reference from the 
 repo creator except for their commits, so we can use Github fork if we want to clone a remote repo to another remote location and keep reference to the original repo owner.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This way we can check the diffrences between working repo and remote repo even offline.
