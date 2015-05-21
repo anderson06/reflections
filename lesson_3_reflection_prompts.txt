@@ -25,3 +25,7 @@ I could send the source code via e-mail or use some data store in the cloud like
 this way I would lose all good git stuf like keeping history of changes, being able to edit 
 code without having side effects in the app, being to aalize a partner commit before merging
 to master or having my commit analized as well, and so many others..
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I am working in a project which is in a stable state and I would like to try to implement a feature that I don't know if it is going to be a permanent part of the project, in this situation I would do all work in a different branch so all my commits don't mess the master branch. Working on a different branch is even more beneficial if I'm working in a project of this kind but with a team, so team members can check each other code, point mistakes or give suggestions before merging the branch to master branch.
